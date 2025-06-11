@@ -1,9 +1,9 @@
 ---
 import { Image } from "astro:assets";
-import svgl from "../../public/svgl.png";
-import stockin from "../../public/stockin.png";
-import moviesfordevs from "../../public/moviesfordevs.png";
-import tron from "../../public/tron.png";
+import web_scraper_api from "../../public/web_scraper_api.jpg";
+import praycraft from "../../public/praycraft.png";
+import socialite from "../../public/socialite.jpg";
+import vader_homepage from "../../public/vader_homepage.png";
 
 interface Project {
   title: string;
@@ -15,32 +15,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "MoviesForDevs",
-    image: moviesfordevs as ImageMetadata,
-    link: "https://github.com/gothsec/MoviesForDevs",
-    preview: "https://movies-for-devs.vercel.app",
-    status: "On Development",
+    title: "Socialite",
+    image: socialite as ImageMetadata,
+    link: "https://github.com/AhmedTheGreatest/socialite",
+    preview: "https://socialite-qpr1.onrender.com",
+    status: "A full-stack social media app with posts, likes, comments, and profiles.",
   },
   {
-    title: "StockIn",
-    image: stockin as ImageMetadata,
-    link: "https://github.com/gothsec/stockin-demo",
-    preview: "https://stockin-demo.vercel.app",
-    status: "On Development",
+    title: "PrayCraft",
+    image: praycraft as ImageMetadata,
+    link: "",
+    preview: "https://praycraft.in",
+    status: "An ecommerce store built using Wordpress and Woocommerce for a client.",
   },
   {
-    title: "Svgl.app",
-    image: svgl as ImageMetadata,
-    link: "https://github.com/pheralb/svgl",
-    preview: "https://svgl.app",
-    status: "Contributor",
+    title: "Product Scraper API",
+    image: web_scraper_api as ImageMetadata,
+    link: "https://github.com/AhmedTheGreatest/web_scraper",
+    preview: "",
+    status: "A FastAPI-powered API that scrapes products from Amazon and Flipkart with real-time updates, caching, and rate-limiting.",
   },
   {
-    title: "Tron Legacy Web",
-    image: tron as ImageMetadata,
-    link: "https://github.com/Gothsec/Tron-Legacy-web",
-    preview: "https://tron-legacy-web.vercel.app/",
-    status: "Template (not official)",
+    title: "Darth Vader Homepage",
+    image: vader_homepage as ImageMetadata,
+    link: "https://github.com/AhmedTheGreatest/homepage",
+    preview: "https://AhmedTheGreatest.github.io/homepage",
+    status: "A Simple responsive homepage for Darth Vader, showcasing HTML and CSS skills.",
   },
 ];
 ---
@@ -117,7 +117,7 @@ const projects: Project[] = [
     </div>
     <a
       target="_blank"
-      href="https://github.com/Gothsec?tab=repositories"
+      href="https://github.com/AhmedTheGreatest?tab=repositories"
       aria-label="GitHub"
       class="w-full flex items-center justify-center gap-2 mt-9 text-[var(--white-icon)] hover:text-white transition duration-300 ease-in-out border border-[var(--white-icon-tr)] p-3 rounded-full bg-[#1414149c] hover:bg-[var(--white-icon-tr)] hover:scale-105"
     >
